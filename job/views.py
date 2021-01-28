@@ -18,7 +18,7 @@ def job_list(request):
     page_number = request.GET.get('page')
     page_obj = p.get_page(page_number)
     context = {'jobs': page_obj, 'myfilter': myfilter}
-    return render(request, 'job/job_list.html', context)
+    return render(request, 'job/index.html', context)
 
 
 def job_detail(request, slug):
