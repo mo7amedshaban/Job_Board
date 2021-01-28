@@ -1,0 +1,2 @@
+Requirement already satisfied: freeze in /Users/mac/opt/anaconda3/lib/python3.8/site-packages (3.0)
+Requirement already satisfied: six in /Users/mac/opt/anaconda3/lib/python3.8/site-packages (from freeze) (1.15.0)
